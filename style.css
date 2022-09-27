@@ -1,0 +1,197 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	text-decoration: none;
+  color: #2c2e30;
+	font-family: arial, sans-serif;
+}
+
+
+#conteneur
+{
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+.intdiv{
+  width:auto;
+  display:flex;
+  align-items: center;
+  margin: 30px 20px 10px 10px; 
+  gap: 10px;
+}
+
+.intdiv a:hover {
+	text-decoration: underline;
+  text-overflow: clip;
+}
+
+.navtext{
+  display:flex;
+  align-items:flex-start;
+}
+
+#main {
+  display:flex;
+  justify-content:center;
+}
+
+.imagebar {
+  width:50px;
+}
+
+.img {
+  width: 15px;
+  height:20px;
+  display:flex;
+  margin-top: 10px;
+}
+
+img{
+  width: 50px;
+}
+
+.logo{
+  width:300px;
+}
+
+
+#main{
+  display:flex;
+  flex-direction:row;
+}
+
+.hardbar{
+  border:transparent;
+  width:490px;
+  
+}
+
+.searchbar{
+  display:flex;
+  justify-content:center;
+    margin:auto;
+    width:575px;
+    height: 44px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+}
+
+.searchbar:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+
+
+
+.s-btn {
+	border: 1px solid transparent;
+	padding: 9px 15px;
+	color: #666;
+	font-size: 14px;
+	border-radius: 4px;
+	margin-right: 10px;
+	margin-top: 5px;
+	outline: none;
+	cursor: pointer;
+	transition: border-color 1ms;
+}
+.s-btn:hover {
+	border: 1px solid #aaa;
+}
+
+.buttons{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+}
+
+
+
+.lang {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 13px;
+	color: #111;
+}
+.lang a {
+	margin-left: 5px;
+	color: #1a0dab;
+}
+.lang a:hover {
+	text-decoration: underline;
+}
+
+
+
+footer {
+	background: #f2f2f2;
+  /* display:flex; */
+  /* flex-direction: row;
+  justify-content: baseline; */
+  bottom:0;
+  position:fixed;
+  width:100%;
+  padding-bottom:10px;
+}
+
+footer h4 {
+	color: rgba(0,0,0, 0.54);
+	font-size: 15px;
+	line-height: 39.5px;
+  padding: 12px 15px;
+	font-weight: 400;
+}
+
+footer a {
+	color: #5f6368;
+	/* display: inline-block; */
+	padding: 12px 15px;
+	font-size: 14px;
+}
+
+footer a:hover {
+	text-decoration: underline;
+  text-overflow: clip;
+}
+
+
+
+.carbone {
+  border-top: 1px solid #ddd;
+  display:flex;
+  justify-content: center;
+  margin-bottom: -40px;
+  text-overflow: clip;
+}
+
+.low{
+  height:30px;
+  display:flex;
+  justify-content:space-between;
+  align-items: start;
+  text-overflow: clip;
+
+
+}
+
+.link-1 {
+  display:flex;
+  justify-content: flex-start;
+  align-item: center;
+  padding-bottom:10px;
+  text-overflow: clip;
+}
+
+.link-2 {
+  display: flex;
+  justify-content: flex-end;
+  align-item: center;
+  padding-bottom:10px;
+}
+
+
+
+
